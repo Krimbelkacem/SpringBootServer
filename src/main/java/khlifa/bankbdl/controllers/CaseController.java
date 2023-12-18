@@ -11,12 +11,12 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class CaseService {
+public class CaseController {
 
     private final CaseRepository caseRepository;
 
     @Autowired
-    public CaseService(CaseRepository caseRepository) {
+    public CaseController(CaseRepository caseRepository) {
         this.caseRepository = caseRepository;
     }
 
